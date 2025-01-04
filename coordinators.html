@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinators</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .delegate-tile {
+            position: relative;
+            background: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+         width: 100%; /* Decrease the width */
+    height: 325px; /* Optional: you can adjust this to fit the content */
+}
+        .delegate-tile:hover {
+            transform: scale(1.05);
+        }
+        .delegate-tile img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .tile-overlay {
+            padding: 15px;
+            text-align: center;
+        }
+        .tile-overlay h3 {
+    margin: 10px 0 5px;
+    font-size: 16px; /* Adjust this value to your desired font size */
+    color: #333;
+}
+
+        .tile-overlay p {
+            font-size: 14px;
+            color: #666;
+        }
+        .profile-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            text-decoration: none;
+        }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%; /* Ensures the body doesn't extend beyond the viewport */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px 40px; /* Adds padding to the left and right */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <nav style="padding: 20px; background: #ffffff; color: white; text-align: center; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
+        <a href="index.html" style="color: black; text-decoration: none; font-size: 18px;"><b>Back to Home</b></a>
+    </nav>
+</header>
+
+
+<main style="padding-top: 70px; background: #214C42;">
+    <h1 style="text-align: center; margin: 20px 0; color: white;">Coordinators</h1>
+    <div class="container">
+
+        <!-- Delegate Tiles -->
+
+        <div class="delegate-tile">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQFMvSJueuoHyA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685584431811?e=1740614400&v=beta&t=QEYJVhIyOVHWpnGb1mszXcdmzW7yBhGWBZv9DXSdAqE" alt="Management 1">
+                            <div class="tile-overlay">
+                 <h3>Dr. R.Seenivasan</h3>
+                                <p>Director-IR, VIT Vellore</p>
+                           </div>
+           <a href="https://www.linkedin.com/in/prof-dr-seenivasan-r-3a660a26/?originalSubdomain=in" class="profile-link"></a>
+        </div>
+
+
+
+<div class="delegate-tile">
+           <img src="https://chennai.vit.ac.in/wp-content/uploads/2020/08/50338_SCOPE-255x319.jpg" alt="Management 4">
+                             <div class="tile-overlay">
+                <h3>Dr. Ganesan R</h3>
+                                <p>Dean, SCOPE, VIT Chennai</p>
+                                       </div>
+            <a href="https://chennai.vit.ac.in/member/dr-ganesan-r/" class="profile-link"></a>
+        </div>
+
+
+
+        <div class="delegate-tile">
+            <img src="https://media.licdn.com/dms/image/v2/C5103AQHQ8iW3Ptd60w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1574263459612?e=1740614400&v=beta&t=ciLhD2y5cr1RIdeEt_Wl5aiQ3z3lzv_x2eFMA4ey60A" alt="Management 2">
+                          
+ <div class="tile-overlay">
+                 <h3>Dr. Jaisankar N</h3>
+                                <p>Dean In-Charge, SCOPE, VIT Vellore</p>
+                            </div>
+          <a href="https://www.linkedin.com/in/dr-jaisankar-natarajan-0a140831/?originalSubdomain=in" class="profile-link"></a>
+        </div>
+
+
+
+        <div class="delegate-tile">
+             <img src="https://media.licdn.com/dms/image/v2/C5603AQFXd4xCMVm6KA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517735210989?e=1740614400&v=beta&t=VOkUllEXsmsA5Ii7QPtp16aRKcr0TVhHNrVfN9e2tvQ" alt="Management 3">
+                                         <div class="tile-overlay">
+               <h3>Dr. Daphne Lopez</h3>
+                                <p>Dean In-Charge, SCORE, VIT Vellore</p>
+                                       </div>
+         <a href="https://www.linkedin.com/in/daphne-lopez-70a91b10/?originalSubdomain=in" class="profile-link"></a>
+        </div>
+
+
+ 
+        <div class="delegate-tile">
+           <img src="https://chennai.vit.ac.in/wp-content/uploads/2020/08/50392-255x319.jpg" alt="Management 5">
+                  <div class="tile-overlay">
+                  <h3>Dr. Syed Ibrahim S P</h3>
+                   <p>Deputy Director-IR, VIT Chennai</p>
+                                      </div>
+             <a href="https://chennai.vit.ac.in/member/dr-syed-ibrahim-s-p/" class="profile-link"></a>
+        </div>
+
+       
+        <div class="delegate-tile">
+            <img src="https://bschool.vit.ac.in/wp-content/uploads/elementor/thumbs/Dr.Naga-Venkata-Rahuram-J-qt280sv9al8sr6esqw6yd3sm82a06jqt97rycproxs.webp" alt="Management 6">
+                                              <div class="tile-overlay">
+              <h3>Dr. JNV Raghuram</h3>
+                                <p>Asst Director-IR, VIT Vellore</p>
+                                            </div>
+             <a href="https://bschool.vit.ac.in/marketing/j-naga-venkata-raghuram/" class="profile-link"></a>
+        </div>
+
+        <div class="delegate-tile">
+              <img src="https://chennai.vit.ac.in/wp-content/uploads/2020/09/50153-Dr.-Nithya-Venkatesan.jpg" alt="Management 7">
+                           <div class="tile-overlay">
+                <h3>Dr. NithyaVenkatesan</h3>
+                                <p>Asst Director-IR, VIT Chennai</p>
+                                       </div>
+             <a href="https://chennai.vit.ac.in/member/dr-nithya-venkatesan/" class="profile-link"></a>
+        </div>
+
+        <div class="delegate-tile">
+           <img src="https://chennai.vit.ac.in/wp-content/uploads/2022/11/52858.jpg" alt="Management 8">
+              <div class="tile-overlay">
+             <h3>Dr. R. Suganya</h3>
+             <p>Associate Professor, VIT</p>
+                                    </div>
+            <a href="https://chennai.vit.ac.in/member/dr-suganya-r/" class="profile-link"></a>
+        </div>
+
+        <div class="delegate-tile">
+           <img src="https://chennai.vit.ac.in/wp-content/uploads/2022/09/52823.jpg" alt="Management 9">
+                 <div class="tile-overlay">
+                <h3>Dr. Ganesh N</h3>
+                                <p>Associate Professor, VIT</p>
+                                       </div>
+          <a href="https://chennai.vit.ac.in/member/dr-ganesh-n/" class="profile-link"></a>
+        </div>
+
+          </div>
+</main>
+
+</body>
+
+<footer>
+    <p> All rights reserved.</p>
+</footer>
+
+</html>
+

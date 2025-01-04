@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TriVision 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+
+        html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif; /* Professional sans-serif font for body text */
+            background-color: #002b27; /* Dark background for better contrast */
+            color: #fff;
+        }
+
+
+    <style>
+        /* General styles */
+        body {
+            font-family: calibri;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e1e;
+            color: #ffffff;
+        }
+
+        /* Header section */
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Added more horizontal padding */
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box; /* This ensures padding is included in width calculation */
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+        header img {
+            height: 100px;
+        }
+
+        nav {
+    flex: 1;
+    max-width: 800px; /* Adjust based on your layout */
+}
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            flex: 1;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+            white-space: nowrap;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+	font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #007bff;
+        }
+
+        /* Main banner styles */
+        .main-banner {
+            background-color: #214C42;
+            display: flex;
+		margin-right: 70px;
+            padding: 40px;
+            color: #ffffff;
+            margin-top: 0px; /* Adjust for fixed header */
+		gap: 40px;
+        }
+
+        .main-banner .left-container {
+            flex: 1;
+            background-color: #18453B;
+
+            padding: 30px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .main-banner .left-container h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+	   color: #E7D49F;
+	font-family: Times new roman;
+        }
+
+        .main-banner .left-container p1 {
+            margin: 10px 0;
+	    font-size: 1.25em;
+	font-family: Times new roman;
+line-height: 1.5;
+	    
+        }
+.main-banner .left-container p2 {
+            margin: 10px 0;
+	    font-size: 1.25em;
+	    
+        }
+
+
+.main-banner .left-container p3 {
+            margin: 10px 0;
+	    font-size: 1em;
+	    
+        }
+
+
+
+        .main-banner .right-container {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.main-banner .right-container .card {
+    position: relative;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-banner .right-container .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+       .main-banner .right-container .card h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    z-index: 2;
+    margin: 0;
+}
+
+.main-banner .right-container .card p {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    width: 100%;
+    margin: 0;
+}
+
+.main-banner .right-container .card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* Set the navbar background */
+nav {
+    position: relative; /* Ensure the navbar is the reference point */
+    background-color: #ffffff;  /* Adjust if needed */
+    background-image: url('C:/Users/91984/Desktop/TriVision Webpage Final Linked/40yrlogo.jpg'); /* Replace with your logo image */
+    background-repeat: no-repeat;
+    background-position: center; /* Position it at the center */
+    background-size: 150px auto; /* Adjust size as needed */
+    z-index: 1;
+    padding: 30px 60px; /* Adjust padding */ 
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6);  /* Adjust the opacity (0.5) as needed */
+    z-index: 0;  /* Ensure overlay sits below the content */
+}
+
+/* Overlay content to make watermark visible but not obtrusive */
+nav ul {
+    position: relative; /* Content stays on top of the background */
+    z-index: 2; /* Content above the background */
+}
+
+
+
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Section styles */
+        section {
+            padding: 60px 20px;
+            height: 100vh; /* Make each section occupy full height of the viewport */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #trivision, #industry, #vit, #brochure, #tricoordinators, #valedictory, #management {
+            background-color: #214C42;
+            margin: 0;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        #trivision h2, #industry h2, #vit h2, #brochure h2, #tricoordinators h2, #valedictory h2, #management h2 {
+            margin: 0 0 20px;
+            font-size: 1.8em;
+        }
+
+
+
+ /carousel CSS/
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .carousel-wrapper {
+            max-width: 90%;
+            margin: 2rem auto;
+            position: relative;
+            background: #f5f5f5;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .carousel {
+            overflow: hidden;
+            position: relative;
+		padding: 0;
+        width: 100%;
+        }
+
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+            width: 100%; /* For 2 slides */
+        }
+
+        .slide {
+            width: 100%; /* Each slide takes half of the total width */
+            flex: 0 0 100%;
+	        position: relative;
+        }
+
+        .delegate-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    }
+    .delegate-tile {
+    flex: 0 0 calc(20% - 20px); /* 5 tiles per row with gap */
+    max-width: calc(20% - 20px);
+    position: relative;
+    overflow: visible;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.delegate-tile:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+        .delegate-tile img {
+            width: 100%;
+            aspect-ratio: 3/4;
+            object-fit: cover;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .delegate-info {
+    position: relative;
+    background: #fff;
+    color: #333;
+    padding: 1rem;
+    border-radius: 0 0 8px 8px;
+    transform: none;
+    transition: transform 0.3s ease;
+}
+
+        .delegate-tile:hover .delegate-info {
+            transform: translateY(0);
+        }
+
+        .delegate-info h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #214C42;
+    line-height: 1.4;
+}
+
+.delegate-info p {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+        .carousel-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .carousel-button:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .dots {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            gap: 0.5rem;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .dot.active {
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+       @media (max-width: 1200px) {
+        .delegate-tile {
+        flex: 0 0 calc(25% - 20px);
+        max-width: calc(25% - 20px);
+    }
+}
+
+@media (max-width: 992px) {
+    .delegate-tile {
+        flex: 0 0 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .delegate-tile {
+        flex: 0 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .delegate-tile {
+        flex: 0 0 100%;  /* 1 tile per row */
+        max-width: 100%;
+    }
+
+}
+
+section {
+    width: 100%;
+    max-width: 100%;
+    padding: 60px 40px;  /* Reduced side padding to allow more width */
+    margin: 0 auto;
+}
+
+#trivision, #industry, #vit, #tricoordinators, #brochure, #valedictory, #management {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Add these new section styles after the carousel CSS */
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#home {
+    background-color: #214C42;
+    padding-top: 60px; /* Adjust for fixed header */
+}
+
+#trivision {
+    background-color: #214C42;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+/* Update the scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Ensure sections don't overlap */
+section:not(#home) {
+    margin-top: 20px;
+}
+
+    </style>
+
+.logo-left, .logo-right {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    max-width: 100px; /* Limit logo width */
+}
+
+/* Add responsive design for logos */
+@media (max-width: 768px) {
+    .logo-left, .logo-right {
+        height: 40px;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 5px;
+    }
+}
+</head>
+<body>
+    <header>
+        <img src="https://careerscc.vit.ac.in/vitcc-careers/img/Blue-VIT%20Logo(latest).png" alt="VIT Logo" class="logo-left">
+        <nav style="flex: 2; text-align: center;">
+            <ul>
+                <li><a href="#home">Home</a></li>
+ 		<li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\vit_leadership.html" >VIT Leadership</a></li> <!-- VIT Leadership opens in a new page -->
+		<li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\coordinators.html" >Organizers</a></li> <!-- coordinators opens in a new page -->
+ 		<li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\rit_del.html" >RIT Delegates</a></li> <!-- rit delagates opens in a new page -->
+ 		<li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\industry_del.html">Industry Delegates</a></li> <!-- Industry delagets opens in a new page -->
+ 		<li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\vit_del.html">VIT Speakers</a></li> <!-- vit delegates opens in a new page -->
+		
+		<li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\TrivisonSchedule.docx.pdf">Schedule</a></li> <!-- Schedule opens in a new page -->
+                <li><a href="C:\Users\91984\Desktop\TriVision Webpage Final Linked\brochure.final.pdf" >Brochure</a></li> <!-- Brochure opens in a new page -->
+		
+                
+                
+            </ul>
+        </nav>
+        <img src="https://www.rit.edu/brandportal/sites/rit.edu.brandportal/files/inline-images/RIT__RGB_vert_k_0.png" alt="RIT Logo" class="logo-right">
+    </header>
+
+
+    <section id="home">
+        <div class="main-banner">
+            <div class="left-container">
+                <h1><center>TriVision: VIT-RIT-Industry AI & Data Science <br>Summit 2025</center></h1>
+<p></p>
+                <p3><center><i>"Driving Innovation and Collaboration for a Sustainable Future"</center></i></p3>
+<p></p>
+                <p2><center><i>January 7-9, 2025</i></center></p2>
+<p></p>
+<p></p>
+                <p1><center>Vellore Institute of Technology (VIT), Chennai and Rochester Institute of Technology (RIT), <br> New York, in collaboration with industry partners, are organizing the TriVision'25 -AI and Data Science Summit focusing on significant advancements in Artificial Intelligence and Data Science. It aims to emphasize the vital role of industry-academia collaborations in driving innovation and impactful applications.</center></p1>
+            </div>
+            <div class="right-container">
+                <div class="card">
+                    <img src=" https://chennai.vit.ac.in/wp-content/uploads/2020/03/campus-banner.jpg" alt="Card Image 1">
+                </div>
+                <div class="card">
+                    <img src="https://www.rit.edu/_assets/images/og-image.jpg" alt="Card Image 2">
+                </div>
+                <div class="card">
+                    <img src="https://image-static.collegedunia.com/public/college_data/images/appImage/_1%20Entrance.jpg?h=260&w=360&mode=crop" alt="Card Image 3">
+                </div>
+                <div class="card">
+                    <img src="https://www.architecturelab.net/wp-content/uploads/2013/12/RIT-InstituteHall-FrontDusk-01.jpg" alt="Card Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+    const carousels = document.querySelectorAll('.carousel-wrapper');
+    
+    carousels.forEach((carouselWrapper) => {
+        const carousel = carouselWrapper.querySelector('.carousel-inner');
+        const slides = carouselWrapper.querySelectorAll('.slide');
+        const prevButton = carouselWrapper.querySelector('.prev');
+        const nextButton = carouselWrapper.querySelector('.next');
+        const dotsContainer = carouselWrapper.querySelector('.dots');
+        let currentSlide = 0;
+        const totalSlides = slides.length;
+
+        // Clear existing dots
+        dotsContainer.innerHTML = '';
+
+        // Create dots
+        for (let i = 0; i < totalSlides; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (i === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(i));
+            dotsContainer.appendChild(dot);
+        }
+
+        function updateDots() {
+            const dots = carouselWrapper.querySelectorAll('.dot');
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+            });
+        }
+
+        function goToSlide(n) {
+            currentSlide = n;
+            const offset = -currentSlide * 100;
+            carousel.style.transform = `translateX(${offset}%)`;
+            updateDots();
+        }
+
+        function nextSlide() {
+            if (currentSlide >= totalSlides - 1) {
+                currentSlide = 0;
+            } else {
+                currentSlide++;
+            }
+            goToSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            if (currentSlide <= 0) {
+                currentSlide = totalSlides - 1;
+            } else {
+                currentSlide--;
+            }
+            goToSlide(currentSlide);
+        }
+
+        // Event listeners
+        prevButton.addEventListener('click', prevSlide);
+        nextButton.addEventListener('click', nextSlide);
+
+        // Touch events
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        carousel.addEventListener('touchstart', e => {
+            touchStartX = e.touches[0].clientX;
+        }, { passive: true });
+
+        carousel.addEventListener('touchmove', e => {
+            touchEndX = e.touches[0].clientX;
+        }, { passive: true });
+
+        carousel.addEventListener('touchend', () => {
+            const difference = touchStartX - touchEndX;
+            if (Math.abs(difference) > 50) {
+                if (difference > 0) {
+                    nextSlide();
+                } else {
+                    prevSlide();
+                }
+            }
+        });
+
+        // Initialize first slide
+        goToSlide(0);
+    });
+});
+</script>
+
+</body>
+</html>
+
+<footer style="background-color: #234545; color: #ffffff; padding: 40px; text-align: center; margin-top: 50px; font-family: Arial, sans-serif;">
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; padding: 20px;">
+        <!-- Contact Information -->
+        <div style="flex: 1; min-width: 300px; text-align: left; margin: 10px;">
+            <h2 style="margin: 0; font-size: 24px;">Trivision</h2>
+            <p style="margin: 5px 0; font-size: 16px;">VIT - RIT - INDUSTRY : AI & DATA SCIENCE SUMMIT 2025</p>
+            <h3 style="margin-top: 20px; font-size: 20px;">Contact</h3>
+            <p style="margin: 5px 0; font-size: 16px;">
+                <a href="mailto:admin.chennai@vit.ac.in" style="color: #ffffff; text-decoration: none;">admin.chennai@vit.ac.in</a><br>
+                +91 44 3993 1555<br>
+                Vellore Institute of Technology University, Keelakotaiyur, Chennai, Tamil Nadu - 600127
+            </p>
+        </div>
+
+           </div>
+
+    <div style="margin-top: 20px; border-top: 1px solid #ffffff; padding-top: 10px; font-size: 14px;">
+        &copy; All Rights Reserved - VIT Chennai.
+    </div>
+</footer>

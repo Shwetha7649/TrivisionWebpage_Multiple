@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIT Delegates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .delegate-tile {
+            position: relative;
+            background: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+         width: 100%; /* Decrease the width */
+    height: 325px; /* Optional: you can adjust this to fit the content */
+}
+        .delegate-tile:hover {
+            transform: scale(1.05);
+        }
+        .delegate-tile img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .tile-overlay {
+            padding: 15px;
+            text-align: center;
+        }
+        .tile-overlay h3 {
+    margin: 10px 0 5px;
+    font-size: 16px; /* Adjust this value to your desired font size */
+    color: #333;
+}
+
+        .tile-overlay p {
+            font-size: 14px;
+            color: #666;
+        }
+        .profile-link {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            text-decoration: none;
+        }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    width: 100%; /* Ensures the body doesn't extend beyond the viewport */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px 40px; /* Adds padding to the left and right */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+footer {
+    
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+<body>
+
+<header>
+    <nav style="padding: 20px; background: #ffffff; color: white; text-align: center; position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
+        <a href="index.html" style="color: black; text-decoration: none; font-size: 18px;"><b>Back to Home</b></a>
+    </nav>
+</header>
+
+
+<main style="padding-top: 70px; background: #214C42;">
+    <h1 style="text-align: center; margin: 20px 0; color: white;">RIT Delegates</h1>
+    <div class="container">
+
+        <!-- Delegate Tiles -->
+
+<div class="delegate-tile">
+          <img src="https://media.licdn.com/dms/image/v2/C4E03AQGrGeIp9D7Sfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1551889275977?e=1740614400&v=beta&t=zgDzrIDECChUKSTsI8-cueOQWIk0KZx1DvwNFBFumNY" alt="Delegate 25">
+                                    <div class="tile-overlay">
+               <h3>Prabu David</h3>
+                                <p>Provost at RIT</p>
+                                          </div>
+           <a href="https://www.linkedin.com/in/prabu-david-b5647411/" class="profile-link"></a>
+        </div>
+
+<div class="delegate-tile">
+          <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=jamisr&HASH=e71b7fb9ee33a3377906e92935eba8e19b866376&T=1735897194" alt="Delegate 15">  <div class="tile-overlay">
+               <h3>James Myers</h3>
+                                <p>Associate Provost for Int'l Edu and Global Programs at RIT</p></div>
+            <a href="https://www.rit.edu/directory/jamisr-james-myers" class="profile-link"></a>
+        </div>
+ <div class="delegate-tile">
+          <img src="https://media.licdn.com/dms/image/v2/C4E03AQE-wX_xlXr5tQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517758574297?e=1740614400&v=beta&t=i5ha_M3ghzoB1vOzEDPa-u7yq9Ic5rH8_ogOHtQ3x2U" alt="Delegate 20">  <div class="tile-overlay">
+               <h3>Kamal Shahrabi</h3>
+                                <p>President at RIT Kosovo</p>
+                             </div>
+              <a href="https://www.linkedin.com/in/kamal-shahrabi-a742169/" class="profile-link"></a>
+        </div>
+
+<div class="delegate-tile">
+             <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=ymacad&HASH=c0d184b75d99b833b858d9c6fde5b3877ecff10a&T=1735897405" alt="Delegate 30">       <div class="tile-overlay">
+                <h3>Yousef Al Assaf</h3>
+                                <p>President - RIT Dubai</p>
+                                         </div>
+            <a href="https://www.rit.edu/directory/ymacad-yousef-al-assaf" class="profile-link"></a>
+        </div>
+
+<div class="delegate-tile">
+              <img src="https://media.licdn.com/dms/image/v2/C5603AQFjYwQomCsV2g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1655052745114?e=1740614400&v=beta&t=cP6wfrpHWUALK8HGbFpsDgpSj8Dcf8antyDZ28H57C0" alt="Delegate 4">
+                          <div class="tile-overlay">
+                <h3>Andre Hudson</h3>
+                                <p>Professor at RIT</p>
+                           </div>
+           <a href="https://www.rit.edu/science/directory/aohsbi-andre-hudson" class="profile-link"></a>
+        </div>
+
+
+<div class="delegate-tile">
+          <img src="https://media.licdn.com/dms/image/v2/C4D03AQEYjjXZBiI_ZA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516303584730?e=1740614400&v=beta&t=v_-1BhIPx2znZ6-JExkIVdu9hBWjeWJfXVd7l06CRnI" alt="Delegate 26">
+                                    <div class="tile-overlay">
+                <h3>S.Manian Ramkumar</h3>
+                                <p>Dean ar RIT</p>
+                                         </div>
+            <a href="https://www.linkedin.com/in/dr-s-manian-ramkumar-33293a3/" class="profile-link"></a>
+        </div>
+
+
+
+<div class="delegate-tile">
+           <img src="https://cdn.rit.edu/images/news/2019-04/Todd_Jokl.jpg" alt="Delegate 27">
+            <div class="tile-overlay">
+                  <h3>Todd Jokl</h3>
+                                <p>Dean at RIT</p>
+                                        </div>
+            <a href="https://www.linkedin.com/in/todd-jokl-8696a51/" class="profile-link"></a>
+        </div>
+
+<div class="delegate-tile">
+          <img src="https://media.licdn.com/dms/image/v2/D4D03AQHVVT6xd-dBWg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728587287931?e=1740614400&v=beta&t=JQ7YYqWKHCNASXnaRSTVyZJqX1DKukpxgcKA8nQMT2A" alt="Delegate 22">         <div class="tile-overlay">
+                <h3>Matt Huenerfauth</h3>
+                                <p>Dean at Rochester Institute of Technology</p>
+                                         </div>
+            <a href="https://www.linkedin.com/in/matt-huenerfauth-3b7590332/" class="profile-link"></a>
+        </div>
+
+
+
+ <div class="delegate-tile">
+           <img src="https://media.licdn.com/dms/image/v2/D5603AQH3MfbJ5KXGnQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1695950524415?e=1740614400&v=beta&t=W4L3H2CMvnuhomia2LilWiIn3rFsgGCnYeq8FHsEBlw" alt="Delegate 21">
+                             <div class="tile-overlay">
+                 <h3>Kelly Norris Martin</h3>
+                                <p>Dean, RIT College of Liberal Arts</p>
+                             </div>
+            <a href="https://www.linkedin.com/in/kellyviscom/" class="profile-link"></a>
+        </div>
+
+
+
+<div class="delegate-tile">
+            <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=gwbnts&HASH=109a9557ff0695f9032f00797ca9a0ae0556937f&T=1735897152" alt="Delegate 13"><div class="tile-overlay">
+               <h3>Gary Behm</h3>
+                                <p>Associate Vice President for Academic Affairs</p>
+                            </div>
+            <a href="https://www.rit.edu/directory/gwbnts-gary-behm" class="profile-link"></a>
+        </div>
+<div class="delegate-tile">
+          <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=sxkbbu&HASH=2d1a59db6b829047c7804427cc89ec3f1d8c9a70&T=1735897425" alt="Delegate 31">        
+		<div class="tile-overlay">
+                 <h3>Shal Khazanchi</h3>
+                                <p>Associate Dean Research and Graduate Programs at RIT</p>
+                                       </div>
+            <a href="https://www.rit.edu/directory/sxkbbu-shal-khazanchi" class="profile-link"></a>
+        </div>
+
+
+
+<div class="delegate-tile">
+          <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=nxsvse&HASH=7412beb08cf67b79d84379abe16c37e8a2a5369c&T=1735897314" alt="Delegate 23">        
+<div class="tile-overlay">
+                 <h3>Naveen Sharma</h3>
+                 <p>Associate Dean Fac Affairs and Industry Engagement ar RIT</p>
+            </div>
+            <a href="https://www.rit.edu/directory/nxsvse-naveen-sharma" class="profile-link"></a>
+        </div>
+
+ <div class="delegate-tile">
+          <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=jrheee&HASH=33ea25c2cc969a7220ae221b8239f4c12927836f&T=1735896099" alt="Delegate 16">  <div class="tile-overlay">
+               <h3>Jamison Heard</h3>
+                                <p>Assistant Professor at RIT</p>
+                             </div>
+             <a href="https://www.rit.edu/directory/jrheee-jamison-heard" class="profile-link"></a>
+        </div>
+
+ <div class="delegate-tile">
+             <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=ibpeme&HASH=4112c686b2cbc8619f6d45087fa7b4c51d1a1fee&T=1735897173" alt="Delegate 14"><div class="tile-overlay">
+             <h3>Isaac Perez-Raya</h3>
+                                <p>Assistant professor at RIT</p>
+                            </div>
+           <a href="https://www.rit.edu/directory/ibpeme-isaac-bernabe-perez-raya" class="profile-link"></a>
+        </div>
+
+
+        <div class="delegate-tile">
+            <img src="https://media.licdn.com/dms/image/v2/C5603AQF2FGJKdNpXRQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1582029391914?e=1740614400&v=beta&t=wl2j78M658WWjl2DW7AbvBZ17q-vBHe48VZpg0-k3s4" alt="1">
+            <div class="tile-overlay">
+                 <h3>Alan Mutka</h3>
+                 <p>Area Head for Web and Mobile Computing Program at RIT Croatia</p>
+            </div>
+            <a href="https://www.rit.edu/croatia/directory/axm11cad-alan-mutka" class="profile-link"></a>
+        </div>
+
+<div class="delegate-tile">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQHZ1gJvWhyErQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1683980574368?e=1740614400&v=beta&t=GuNiJV6Q1rqd6VzEZDYJ8-nlWaQg1qW1LkT0LCzPHBw" alt="2">
+            <div class="tile-overlay">
+                 <h3>Alex Lobos</h3>
+                  <p>Director, School of Design at RIT</p>
+
+            </div>
+            <a href="https://www.rit.edu/artdesign/directory/aflfaa-alex-lobos" class="profile-link"></a>
+        </div>
+
+
+
+        <div class="delegate-tile">
+           <img src="https://media.licdn.com/dms/image/v2/C4D03AQEAmoP9XZPffg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516931234908?e=1740614400&v=beta&t=cqWVLDT1Ea5VYpR9BvPszXcpIQZNRAPOoKEw40uAFmA" alt="Delegate 3">
+ <div class="tile-overlay">
+                 <h3>Amlan Ganguly</h3>
+                                <p>Department Head and Professor, Computer Engineering at RIT</p> </div>
+            <a href="https://www.rit.edu/engineering/directory/axgeec-amlan-ganguly" class="profile-link"></a>
+        </div>
+
+
+<div class="delegate-tile">
+            <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=xxzeme&HASH=a1ea5b54d1190731bb7084d430127e187212a32f&T=1735897377" alt="Delegate 29">        <div class="tile-overlay">
+                 <h3>Xudong Zheng</h3>
+                                <p>Robotics Director, UCSD</p>
+                                        </div>
+           <a href="https://www.rit.edu/directory/xxzeme-xudong-zheng" class="profile-link"></a>
+        </div>
+
+
+<div class="delegate-tile">
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfPYkrnl9Gk_StHdS20cRxxgQ9mb60-02E-xiq-Op9a24xbO8l" alt="Delegate 6">
+                              <div class="tile-overlay">
+               <h3>Ashique KhudaBukhsh </h3>
+                                <p>Assistant Professor at RIT</p>
+                            </div>
+            <a href="https://www.cs.cmu.edu/~akhudabu/" class="profile-link"></a>
+        </div>
+
+
+
+ <div class="delegate-tile">
+           <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=cmhvcs&HASH=0ebf588208dd8f2d1ef9b2c2cd5f4e2f5be5069d&T=1735897090" alt="Delegate 11"> <div class="tile-overlay">
+                  <h3>Christopher Homan</h3>
+                                <p>Associate Professor at RIT</p>
+                            </div>
+            <a href="https://www.rit.edu/directory/cmhvcs-christopher-homan"  class="profile-link"></a>
+        </div>
+
+
+
+  <div class="delegate-tile">
+           <img src="https://media.licdn.com/dms/image/v2/C4D03AQHSH0lFpvL_9w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1570639333985?e=1740614400&v=beta&t=8V1SOjmPC_KbkS599kJymkmqmD-Th9hvdie-IXUN-N4" alt="Delegate 5">
+                             <div class="tile-overlay">
+                <h3>Andres Kwasinski</h3>
+                                <p>Professor and ECE PhD Director at RIT</p>
+                            </div>
+             <a href="https://www.rit.edu/engineering/directory/axkeec-andres-kwasinski" class="profile-link"></a>
+        </div>
+
+
+
+ <div class="delegate-tile">
+            <img src="https://media.licdn.com/dms/image/v2/C4D03AQEMsBzc0Nvx4w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1609118999365?e=1740614400&v=beta&t=QPBqoL5C8K0e_zp_zx60igBNBCR5FiTkThWoret-pWk" alt="Delegate 10">
+                            <div class="tile-overlay">
+                <h3>Christopher Collison </h3>
+                 <p>Professor at RIT</p>
+                            </div>
+            <a href="https://www.linkedin.com/in/christopher-collison-0206649/" class="profile-link"></a>
+        </div>
+
+
+
+        <div class="delegate-tile">
+            <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=jcnfaa&HASH=597c55b9b2272aafc46454f5e8df54f51ae8cc6c&T=1735897282" alt="Delegate 19"> <div class="tile-overlay">
+                <h3>Juan Noguera</h3>
+                                <p>Assistant Professor at RIT</p>
+                            </div>
+            <a href="https://www.rit.edu/directory/jcnfaa-juan-noguera" class="profile-link"></a>
+        </div>
+
+
+<div class="delegate-tile">
+           <img src="https://media.licdn.com/dms/image/v2/C5603AQGvzjMRBTWUBg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1663260454218?e=1740614400&v=beta&t=hiajD8Bf_eSjhl4LfrDxFl6svDBPfQLmw3MC7POgrLs" alt="Delegate 28">
+                                   <div class="tile-overlay">
+                <h3>Travis Desell</h3>
+                                <p>Associate Professor ar RIT</p>
+                                         </div>
+            <a href="https://www.linkedin.com/in/travis-desell-16204416/" class="profile-link"></a>
+        </div>
+
+ <div class="delegate-tile">
+           <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=jlsnop&HASH=bd14d83a8a93bae7d7ace506080cf98b48d1f139&T=1735897257" alt="Delegate 18">  <div class="tile-overlay">
+                 <h3>Jenna Stein</h3>
+                                <p>Special Assistant for Interpretation and Special Projects at RIT</p></div>
+            <a href="https://www.rit.edu/directory/jlsnop-jenna-stein" class="profile-link"></a>
+        </div>
+
+
+
+        <div class="delegate-tile">
+             <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=jlmdis&HASH=ba67d2c14963236dd71117577890ea5f3c41bc40&T=1735977516" alt="Delegate 7"><div class="tile-overlay">
+                <h3>Jennifer Mura</h3>
+                <p>Interpreter, RIT</p>
+                           </div>
+            <a href="https://www.rit.edu/ntid/directory/jlmdis-jennifer-mura" class="profile-link"></a>
+        </div>
+
+
+
+<div class="delegate-tile">
+             <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=ajrbbu&HASH=635d4642b69c0379257309908a156e26897b7164&T=1735897023" alt="Delegate 7"><div class="tile-overlay">
+                <h3>Ashok Robin</h3>
+                <p>Professor of Finance at RIT</p>
+                           </div>
+            <a href="https://www.linkedin.com/in/ashok-robin-0872466/" class="profile-link"></a>
+        </div>
+
+
+
+<div class="delegate-tile">
+             <img src="https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=etabbu&HASH=a67e7500cd994ae33b439e71c16a6b885cd6edbb&T=1735897128" alt="Delegate 12"><div class="tile-overlay">
+              <h3>Edwin Torres Areizaga</h3>
+                                <p>Department Chair</p>
+                            </div>
+           <a href="https://www.rit.edu/directory/etabbu-edwin-torres-areizaga" class="profile-link"></a>
+        </div>
+
+
+<div class="delegate-tile">
+            <img src=https://claws.rit.edu/photos/getphotoid.php?Client=Marketing&UN=coagla&HASH=4cf5b4874103466787925723a06e156c2fe9963b&T=1735840862 alt="Delegate 9"> <div class="tile-overlay">
+                <h3>Cecilia Alm</h3>
+                                <p>Professor at RIT</p>
+                            </div>
+           <a href="https://www.rit.edu/directory/coagla-cecilia-alm" class="profile-link"></a>
+        </div>
+
+
+
+
+
+        
+
+
+ 
+      
+
+       
+        
+
+
+
+
+    </div>
+</main>
+
+</body>
+
+<footer>
+    <p>All rights reserved.</p>
+</footer>
+
+</html>
+
